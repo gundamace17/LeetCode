@@ -1,5 +1,15 @@
 // 0048. Rotate Image.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+
+Expalanation of the Algorithm:
+Step1 Reverse the order of elements in matrix
+Step2 Swap Matrix[i][j] with Matrix[j][i]
+
+[[1, 2, 3]    step1   [[7, 8, 9]    step2   [[7, 4, 1] 
+ [4, 5, 6]   ------>   [4, 5, 6]   ------>   [8, 5, 2]  
+ [7, 8, 9]]            [1, 2, 3]]            [9, 6, 3]]
+
+*/
 
 #include <iostream>
 #include <vector>
