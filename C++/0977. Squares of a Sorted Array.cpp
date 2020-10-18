@@ -1,3 +1,7 @@
+// Explanation of the Algorithm
+// 1. Take the square of each element
+// 2. Sort the vector
+
 #include <iostream>
 #include <vector>
 #include <cmath>
